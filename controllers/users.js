@@ -7,8 +7,9 @@ const User = require('../models/user');
 const HttpError = require('../models/http-error');
 
 const avatars = [
-    'image-1.jpg', 'image-2.jpg', 'image-3.jpg', 'image-4.jpeg', 'image-5.jpeg', 
-    'image-6.jpg', 'image-7.jpg', 'image-8.jpg', 'image-9.jpg', 'image-10.jpg'
+    'image-0.png', 'image-1.jpg', 'image-2.jpg', 'image-3.jpg', 'image-4.jpeg', 
+    'image-5.jpeg', 'image-6.jpg', 'image-7.jpg', 'image-8.jpg', 'image-9.jpg', 
+    'image-10.jpg'
 ];
 
 exports.getAvatars = (req, res, next) => {
